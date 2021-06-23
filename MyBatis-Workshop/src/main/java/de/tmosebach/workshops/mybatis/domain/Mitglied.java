@@ -4,7 +4,7 @@ public class Mitglied {
 
 	private Long id;
 	private String vorname;
-	private String nachname;
+	private String name;
 	
 	public Long getId() {
 		return id;
@@ -18,14 +18,14 @@ public class Mitglied {
 	public void setVorname(String vorname) {
 		this.vorname = vorname;
 	}
-	public String getNachname() {
-		return nachname;
+	public String getName() {
+		return name;
 	}
-	public void setNachname(String nachname) {
-		this.nachname = nachname;
+	public void setName(String name) {
+		this.name = name;
 	}
 	@Override
 	public String toString() {
-		return "Mitglied [id=" + id + ", vorname=" + vorname + ", nachname=" + nachname + "]";
+		return "Mitglied [id=" + id + ", vorname=" + vorname + ", name=" + name + "]";
 	}
 }
